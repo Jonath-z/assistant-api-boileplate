@@ -23,9 +23,9 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Bienvenue votre AI Chatbot personel!
         </h1>
-        <p className="mb-2 leading-normal text-muted-foreground">
+        {/* <p className="mb-2 leading-normal text-muted-foreground">
           This is an open source AI chatbot app template built with .
         </p>
         <p className="leading-normal text-muted-foreground">
@@ -43,7 +43,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
               {message.heading}
             </Button>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   )

@@ -25,7 +25,7 @@ export default function CreateAssistant() {
     <>
       {assistant ? (
         <>
-          <span className="cursor-pointer px-4 py-1 text-2xl font-bold">
+          <span className="cursor-pointer px-4 py-1 text-sm font-bold">
             {assistant.name} Assistant
           </span>
         </>

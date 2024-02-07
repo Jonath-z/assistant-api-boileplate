@@ -27,21 +27,21 @@ export function ChatPanel({
           {isLoading && (
             <Button
               variant="outline"
-              onClick={() => stop()}
+              // onClick={() => stop()}
               className="bg-background"
             >
               <IconStop className="mr-2" />
-              message generating
+              Attend, je cherches ta reponse!!!
             </Button>
           )}
-          <Button
+          {/* <Button
             variant="outline"
             onClick={() => onNewConversation()}
             className="absolute right-4 bg-white text-black"
           >
             <IconEdit className="mr-2" />
             New chat
-          </Button>
+          </Button> */}
         </div>
         <div className="space-y-4 border-t bg-background px-4 py-2 shadow-lg sm:rounded-t-xl sm:border md:py-4">
           <PromptForm
